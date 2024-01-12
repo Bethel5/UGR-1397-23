@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body class="bg-orange-100">
+
+    <h2 class="font-bold flex justify-around text-3xl mb-10 mt-5 font-serif">Find Pets To Adopt!</h2>
+    
+    <nav class="flex justify-end space-x-4">
+        <a href="#dogs" class="border border-orange-300 rounded-2xl px-4 py-2 bg-orange-300 hover:bg-orange-500">Dogs</a>
+        <a href="#cats" class="border border-orange-300 rounded-2xl px-4 py-2 bg-orange-300 hover:bg-orange-500">Cats</a>
+    </nav>
+
+    <!-- Container for Pet Cards -->
+    <div id="pets-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+        <!-- Pet cards will be dynamically added here -->
+    </div>
+    <div id="petInfo"></div>
+    <button type="submit" class="bg-orange-300 hover:bg-orange-400 text-gray-700 font-bold py-2 px-4 rounded-2xl">
+        Adopt
+      </button>
+  <script src="app.js"></script>
+</body>
+</html>
